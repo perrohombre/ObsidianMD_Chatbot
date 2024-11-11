@@ -23,8 +23,8 @@ This project is a desktop application for an AI chatbot built with Chainlit, des
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/chainlit-obsidian-desktop.git
-    cd chainlit-obsidian-desktop
+    git clone https://github.com/perrohombre/ObsidianMD_Chatbot
+    cd ObsidianMD_Chatbot
     ```
 
 2. Install Node.js dependencies:
