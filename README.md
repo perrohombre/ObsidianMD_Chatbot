@@ -2,6 +2,7 @@
 
 This project is a desktop application for an AI chatbot built with Chainlit, designed to interact with notes in an Obsidian vault. The chatbot is accessible via a desktop app powered by Electron, allowing you to run queries on your notes, access task lists, and retrieve relevant information from your Obsidian knowledge base.
 
+## Demonstration using local llama3 model
 ![App Demo](Demo.png)
 
 ## Features
