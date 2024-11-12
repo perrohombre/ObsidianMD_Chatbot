@@ -48,10 +48,10 @@ This project is a desktop application for an AI chatbot built with Chainlit, des
    - Create a `.env` file and add your OpenAI API key:
      ```plaintext
      OPENAI_API_KEY=your_openai_api_key
+     OBSIDIAN_VAULT_PATH=/Your/Path/To/Vault
+     OBSIDIAN_VAULT_NAME=your_vault_name
      ```
 
-6. Configure the path to your Obsidian vault:
-   - In `obsidian_chatbot.py`, update the `vault_path` and `vault_name` variables to match your Obsidian vault.
 
 ### Running the Application
 
