@@ -66,6 +66,7 @@ This will concurrently run the Chainlit server and open the Electron desktop app
 ### Running the Llama3 Model Locally with Ollama
 
 If you’ve selected “llama3” as the model in the chatbot interface, ensure the Ollama server is running to handle Llama3 model queries.
+
 	•	Start Ollama: The Ollama service should run automatically if installed. If needed, you can manually start it to confirm:
 
 ```bash
