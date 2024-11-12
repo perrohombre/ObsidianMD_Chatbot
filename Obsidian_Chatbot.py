@@ -17,10 +17,10 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Path to your Obsidian vault
-vault_path = '/Users/aleksandergajowniczek/Documents/Main'
+vault_path = os.getenv("OBSIDIAN_VAULT_PATH")
 
 # Name of your Obsidian vault
-vault_name = 'Main'
+vault_name = os.getenv("OBSIDIAN_VAULT_NAME")
 
 # Path to a specific file in the vault
 tasks_file_path = os.path.join(vault_path, 'Tasks', 'Tasks.md')
