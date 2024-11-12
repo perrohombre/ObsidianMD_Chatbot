@@ -25,9 +25,12 @@ vault_name = os.getenv("OBSIDIAN_VAULT_NAME")
 # Path to a specific file in the vault
 tasks_file_path = os.path.join(vault_path, 'Tasks', 'Tasks.md')
 
-# Load the content of the file
-with open(tasks_file_path, 'r', encoding='utf-8') as f:
-    tasks_content = f.read()
+# Load the content of the file if it exists, otherwise set to 'None'
+if os.path.exists(tasks_file_path):
+    with open(tasks_file_path, 'r', encoding='utf-8') as f:
+        tasks_content = f.read()
+else:
+    tasks_content = 'None'
 
 # Function to load all .md files from the vault
 def load_notes(vault_path):
