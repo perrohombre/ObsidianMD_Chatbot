@@ -97,7 +97,7 @@ This will allow the Chainlit app to communicate with the Llama3 model locally fo
 
 ## Notes
 
-	•	Ensure your Obsidian vault path is correctly set in obsidian_chatbot.py.
+	•	Ensure your environment variables are correctly set in .env file.
 	•	The app is configured for macOS, but other OS builds can be added in package.json.
 
 Let me know if you need further modifications!
